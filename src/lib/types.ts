@@ -226,13 +226,13 @@ export const DEFAULT_SETTINGS: ProfileSettings = {
     '©&nbsp;2022&nbsp;-&nbsp;2026&nbsp;|&nbsp;<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener" style="color:#737373;text-decoration:none;">粤ICP备XXXXXXXX号-1</a>',
   footerEnabled: true,
 
-  skyThemeId: "dawn-default",
-  useCustomSky: false,
-  customSky: {
-    top: "#1e4877",
-    bottom: "#4584b4",
-    fog: "#4584b4",
-  },
+  skyThemeId: "dawn-default",  
+    useCustomSky: true,            
+    customSky: {
+      top: "#2a5689", 
+      bottom: "#96c2e3",
+      fog: "#96c2e3", 
+    },
 
   cloudDensity: 8000,
   cloudSpeed: 1,
