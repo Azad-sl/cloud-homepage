@@ -1,12 +1,12 @@
 # ☁️ 云端个人主页 · Cloud Home
 
-一个空灵感十足的云端个人主页 TypeScript 项目。流动的云、可定制的头像与签名、可编辑的链接与页脚、8 种天空配色 + 自定义渐变、5 种页面字体、7 种头像动效、密码保护的管理后台，一键部署到 Vercel + Upstash Redis。
+一个云端个人主页 TypeScript 项目。流动的云、可定制的头像与签名、可编辑的链接与页脚、8 种天空配色 + 自定义渐变、5 种页面字体、7 种头像动效、密码保护的管理后台，一键部署到 Vercel + Upstash Redis。
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Three.js](https://img.shields.io/badge/Three.js-r185-green) ![Vercel](https://img.shields.io/badge/Vercel-Ready-black)
 
 ## ✨ 特性
 
-- 🎨 **1:1 复刻原版云层 + 天空**：基于 Three.js + 自定义 ShaderMaterial，8000 片云层平滑无限循环，雾化渐隐到天空交界处不突兀；鼠标视差、无限循环飞行保留原版逻辑
+- 🎨 **云层 + 天空**：基于 Three.js + 自定义 ShaderMaterial，8000 片云层平滑无限循环，雾化渐隐到天空交界处不突兀；鼠标视差、无限循环飞行保留原版逻辑
 - 🖼️ **头像**：上传图片或图床链接，7 种动效（无 / 摇铃铛原版 / 呼吸缩放 / 缓慢旋转 / 上下漂浮 / 脉冲光环 / **微光发光**），大小+位置滑动调节
 - ✍️ **签名**：5 种动效（无 / 淡入淡出 / **打字机（逐字打印）** / 波浪 / 彩虹），字号+位置滑动调节
 - 📛 **昵称**：可选在头像下方显示
@@ -23,7 +23,7 @@
 
 ## 🚀 部署
 
-**完全不需要写代码**，跟着 [`deploy.md`](./deploy.md) 走即可，约 15 分钟上线。流程概要：
+跟着 [`deploy.md`](./deploy.md) 走即可，约 15 分钟上线。流程概要：
 
 1. 解压代码包，上传到 GitHub
 2. 在 Vercel 导入项目
@@ -62,11 +62,6 @@ bun run dev   # 或 npm run dev
 | `public/cloud.png` | 云朵纹理（原版资源） |
 | `vercel.json` | Vercel 部署配置 |
 | `deploy.md` | 小白式部署指南 |
-
-## 🎨 致敬
-
-云层渲染致敬了经典的 [Mr.doob three.js clouds demo](https://github.com/mrdoob/three.js/blob/master/examples/webgl_clouds.html)，
-原版 HTML 项目来自 Azad 的"我的互联网日志"。
 
 ## 📜 License
 
