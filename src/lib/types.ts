@@ -216,10 +216,10 @@ export const DEFAULT_SETTINGS: ProfileSettings = {
   signaturePosY: 36,
 
   links: [
-    { id: "l1", label: "作者主页", href: "https://home.azad.asia/", icon: "🏠", color: "#ffffff" },
-    { id: "l2", label: "作者博客", href: "https://blog.azad.asia/", icon: "✍️", color: "#ffffff" },
-    { id: "l3", label: "实验室", href: "https://other.azad.asia/", icon: "💡", color: "#ffffff" },
-    { id: "l4", label: "开源地址", href: "https://github.com/Azad-sl/cloud-home", icon: "🐙", color: "#ffffff" },
+    { id: "l1", label: "Home", href: "https://home.azad.asia/", icon: "🏠", color: "#ffffff" },
+    { id: "l2", label: "Blog", href: "https://blog.azad.asia/", icon: "✍️", color: "#ffffff" },
+    { id: "l3", label: "Other", href: "https://other.azad.asia/", icon: "💡", color: "#ffffff" },
+    { id: "l4", label: "Github", href: "https://github.com/Azad-sl/cloud-homepage", icon: "🛫", color: "#ffffff" },
   ],
 
   footer:
